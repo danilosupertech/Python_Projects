@@ -39,7 +39,7 @@ Managing contacts is a common feature in many applications, and this project hel
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/contact-manager-python-mongodb.git
+  [ git clone https://github.com/yourusername/contact-manager-python-mongodb.git](https://github.com/danilosupertech/Python_Projects.git)
    cd contact-manager-python-mongodb
 (Optional) Create and activate a virtual environment:
 
