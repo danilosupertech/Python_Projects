@@ -3,7 +3,6 @@
 ![Python](https://img.shields.io/badge/python-3.10+-blue)
 ![Flask](https://img.shields.io/badge/Flask-2.x-green)
 ![REST](https://img.shields.io/badge/Style-REST-orange)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 Este projeto demonstra, de forma simples e didática, uma **API RESTful** em Python usando **Flask** e **SQLite** para realizar operações **CRUD** (Create, Read, Update, Delete) de usuários. Ele serve como base de estudo para quem está começando em **desenvolvimento backend** e quer entender como sistemas se comunicam por **HTTP** trocando dados em **JSON**.
 
@@ -212,11 +211,6 @@ Python_Projects/
 
 ## 🤝 Contribuição
 Contribuições são bem-vindas! Abra uma **Issue** ou envie um **Pull Request** com melhorias, correções ou novas funcionalidades.
-
----
-
-## 📜 Licença
-  Livre para quem quiser contribuir com o projeto.
 
 ---
 
