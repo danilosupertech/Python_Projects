@@ -1,0 +1,2 @@
+# Requisitos do projeto
+# Apenas bibliotecas padrão são utilizadas, não é necessário instalar dependências extras.
