@@ -1,11 +1,11 @@
-# Python VPN (conceito)
+# Python Chat_Socket (conceito)
 
 Este projeto demonstra uma **VPN simples em Python** (apenas para aprendizado).  
 Inclui um cliente e servidor que simulam o tráfego encapsulado.
 
 ## Estrutura
 ```
-python_vpn/
+chat_socket/
 ├── client/
 │   └── client.py
 ├── server/
@@ -13,6 +13,11 @@ python_vpn/
 ├── requirements.txt
 └── README.md
 ```
+# Python Chat_Socket (conceito)
+
+Este projeto demonstra um **chat simples em Python utilizando sockets**.  
+Ele permite que múltiplos clientes se conectem a um servidor central e troquem mensagens em tempo real.
+
 
 ## Como usar
 1. Clone este repositório ou extraia o zip.  
@@ -26,6 +31,9 @@ python_vpn/
    ```
 4. Troque mensagens entre cliente e servidor.
 
-## Aviso
-Este projeto **não é uma VPN real** para produção.  
-Serve apenas como exemplo educacional usando `socket` em Python.
+
+## ▶️ Como Usar | How to Use
+
+### 1. Instale as dependências | Install dependencies
+```bash
+pip install -r requirements.txt
