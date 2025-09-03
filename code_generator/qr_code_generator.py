@@ -5,6 +5,11 @@ from PIL import ImageTk, Image
 import shutil
 
 # Function to generate a QR code image from text or URL
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> f383b98 (Python VPN Sockets)
 def generate_qr(text):
     """
     Generates a valid QR Code from the given text or URL.
@@ -23,6 +28,12 @@ def generate_qr(text):
     filename = 'qr_code.png'  # Temporary file name
     img.save(filename)  # Save the QR code image
     return filename  # Return the filename for further use
+<<<<<<< HEAD
+=======
+
+# Function to save the QR code to a user-specified location
+
+>>>>>>> f383b98 (Python VPN Sockets)
 
 # Function to save the QR code to a user-specified location
 def save_qr(filename):
@@ -35,8 +46,18 @@ def save_qr(filename):
         filetypes=[('PNG Images', '*.png')]  # Limit file type to PNG
     )
     if filepath:  # Only proceed if a file path is chosen
+<<<<<<< HEAD
         shutil.copy(filename, filepath)  # Copy the temporary file to the chosen path
         messagebox.showinfo('QR Code Saved!', f'Saved to {filepath}')  # Inform the user
+=======
+        # Copy the temporary file to the chosen path
+        shutil.copy(filename, filepath)
+        # Inform the user
+        messagebox.showinfo('QR Code Saved!', f'Saved to {filepath}')
+
+# Function to create the main GUI window
+
+>>>>>>> f383b98 (Python VPN Sockets)
 
 # Function to create the main GUI window
 def create_window():
@@ -66,10 +87,19 @@ def create_window():
 
         filename = generate_qr(text)  # Generate the QR code
         img = Image.open(filename)  # Open the generated image
+<<<<<<< HEAD
         img = img.resize((300, 300), Image.Resampling.LANCZOS)  # Resize for display
         photo = ImageTk.PhotoImage(img)  # Convert to PhotoImage for Tkinter
 
         canvas.create_image(150, 150, image=photo)  # Display image in the center of canvas
+=======
+        # Resize for display
+        img = img.resize((300, 300), Image.Resampling.LANCZOS)
+        photo = ImageTk.PhotoImage(img)  # Convert to PhotoImage for Tkinter
+
+        # Display image in the center of canvas
+        canvas.create_image(150, 150, image=photo)
+>>>>>>> f383b98 (Python VPN Sockets)
         canvas.image = photo  # Keep a reference to prevent garbage collection
 
         # Button to save the QR code image
@@ -79,6 +109,11 @@ def create_window():
     # Button to trigger QR code generation
     tk.Button(window, text='Generate QR Code',
               command=generate_and_display).pack(pady=5)
+<<<<<<< HEAD
+=======
+
+    window.mainloop()  # Run the Tkinter event loop
+>>>>>>> f383b98 (Python VPN Sockets)
 
     window.mainloop()  # Run the Tkinter event loop
 
